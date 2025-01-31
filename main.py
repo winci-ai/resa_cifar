@@ -11,7 +11,7 @@ import torch.nn as nn
 import torch.backends.cudnn as cudnn
 from args import get_args
 from src.transform import MultiVisionDataset
-from methods import get_method
+from method import get_method
 from eval.evaluate import get_acc
 from eval.dataloader import get_clf
 
