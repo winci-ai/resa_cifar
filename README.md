@@ -50,7 +50,7 @@ torchrun --nproc_per_node=1 main.py \
 --dump_path /path/to/saving_dir \
 ```
 
-The command for pretraining CIFAR-100 is identical; you simply need to set `--dataset cifar100`.
+The command for pretraining on CIFAR-100 is identical; you simply need to set `--dataset cifar100`.
 
 ## License
 See the [LICENSE](./LICENSE) file for details about the license under which this code is made available.
